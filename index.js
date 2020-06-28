@@ -27,7 +27,7 @@ function reduceToTotal(sourceArray, startingPoint){
   }else{
     result+= startingPoint;
   }
-  
+
   sourceArray.forEach(elem => result += elem);
   return result;
 }
