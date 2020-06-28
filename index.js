@@ -19,3 +19,8 @@ function mapToSquare(sourceArray){
   sourceArray.forEach(elem => result.push(elem * elem));
   return result;
 }
+
+function reduceToTotal(sourceArray, startingPoint){
+  sourceArray.forEach(elem => startingPoint+= elem);
+  return startingPoint;
+}
