@@ -21,6 +21,9 @@ function mapToSquare(sourceArray){
 }
 
 function reduceToTotal(sourceArray, startingPoint){
+  if(startingPoint === "NaN"){
+    startingPoint = 0;
+  }
   sourceArray.forEach(elem => startingPoint+= elem);
   return startingPoint;
 }
