@@ -21,7 +21,7 @@ function mapToSquare(sourceArray){
 }
 
 function reduceToTotal(sourceArray, startingPoint){
-  cons
+
   let result = 0;
   if(startingPoint === undefined){
     result = 0;
