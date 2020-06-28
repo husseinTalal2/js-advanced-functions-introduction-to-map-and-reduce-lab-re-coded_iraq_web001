@@ -32,3 +32,8 @@ function reduceToTotal(sourceArray, startingPoint){
   sourceArray.forEach(elem => result += elem);
   return result;
 }
+
+function reduceToAllTrue(sourceArray){
+  return 0;
+}
+
